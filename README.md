@@ -1,24 +1,24 @@
 # LU Decomposition 
 
-## AIM:
+# AIM:
 To write a program to find the LU Decomposition of a matrix.
 
-## Equipments Required:
+# Equipments Required:
 1. Hardware – PCs
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
 
-## Algorithm
-# Step 1:
+# Algorithm
+## Step 1:
 Import the numpy module to use the built-in functions for
 calculation
-# Step 2:
+## Step 2:
 Prepare the lists from each linear equations and assign in
 np.array()
-# Step 3:
+## Step 3:
 Using the scipy.linalg, we can find the solutions
-# Step 4:
+## Step 4:
 End the program
-## Program:
+# Program:
 (i) To find the L and U matrix
 ```
 #Program to find L and U matrix using LU decomposition.
@@ -50,12 +50,12 @@ solution=lu_solve(result,B)
 print(solution)
 ```
 
-## Output:
+# Output:
 ![Screenshot 2023-12-13 111306](https://github.com/VerginJenifer/LU-Decomposition/assets/136251012/253db0df-c863-45bf-acde-9b191c55420b)
 
 ![image](https://github.com/VerginJenifer/LU-Decomposition/assets/136251012/35d2ca9e-2dec-4f66-9a15-5fc59658b64f)
 
 
-## Result:
+# Result:
 Thus the program to find the LU Decomposition of a matrix is written and verified using python programming.
 
